@@ -40,7 +40,7 @@ function test(window, expect) {
 }
 
 function bare(window, expect) {
-  describe('유어클레스 bare minimum 레슨의 예를 통과합니다.', function () {
+  describe('유어클래스 bare minimum 레슨의 예를 통과합니다.', function () {
     afterEach(function () {
       clearButton.dispatchEvent(clickEvent);
     });
@@ -212,7 +212,7 @@ function bare(window, expect) {
 }
 
 function advanced(window, expect) {
-  describe('유어클레스 Advanced Challenge 레슨의 예를 통과합니다.', function () {
+  describe('유어클래스 Advanced Challenge 레슨의 예를 통과합니다.', function () {
     afterEach(function () {
       clearButton.dispatchEvent(clickEvent);
     });
