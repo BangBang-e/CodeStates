@@ -333,7 +333,7 @@ function advanced(window, expect) {
         });
       };
 
-      describe('덧샘 연산을 검사합니다', function () {
+      describe('덧셈 연산을 검사합니다', function () {
         const testArr = [
           { firstNum: '1', operator: '+', displayedNum: '2', result: '3' },
           { firstNum: '9492', operator: '+', displayedNum: '848946', result: '858438' },
@@ -344,7 +344,7 @@ function advanced(window, expect) {
         testArr.forEach(calculateFuncTest);
       });
 
-      describe('뺄샘 연산을 검사합니다', function () {
+      describe('뺄셈 연산을 검사합니다', function () {
         const testArr = [
           { firstNum: '1', operator: '-', displayedNum: '2', result: '-1' },
           { firstNum: '9492', operator: '-', displayedNum: '9492', result: '0' },
@@ -355,7 +355,7 @@ function advanced(window, expect) {
         testArr.forEach(calculateFuncTest);
       });
 
-      describe('곱샘 연산을 검사합니다', function () {
+      describe('곱셈 연산을 검사합니다', function () {
         const testArr = [
           { firstNum: '1', operator: '*', displayedNum: '2', result: '2' },
           { firstNum: '9492', operator: '*', displayedNum: '231', result: '2192652' },
@@ -366,7 +366,7 @@ function advanced(window, expect) {
         testArr.forEach(calculateFuncTest);
       });
 
-      describe('나눗샘 연산을 검사합니다', function () {
+      describe('나눗셈 연산을 검사합니다', function () {
         const testArr = [
           { firstNum: '4', operator: '/', displayedNum: '2', result: '2' },
           { firstNum: '100', operator: '/', displayedNum: '10', result: '10' },
@@ -479,7 +479,7 @@ function nightmare(window, expect) {
         });
       };
 
-      describe('덧샘 연산을 검사합니다', function () {
+      describe('덧셈 연산을 검사합니다', function () {
         const testArr = [
           { firstNum: '0.2341324', operator: '+', displayedNum: '0.91723', result: '1.1513624' },
           { firstNum: '0.1', operator: '+', displayedNum: '0.2', result: '0.30000000000000004' },
@@ -488,7 +488,7 @@ function nightmare(window, expect) {
         testArr.forEach(calculateFuncTest);
       });
 
-      describe('뺄샘 연산을 검사합니다', function () {
+      describe('뺄셈 연산을 검사합니다', function () {
         const testArr = [
           { firstNum: '3.3', operator: '-', displayedNum: '3', result: '0.2999999999999998' },
           { firstNum: '120984.1', operator: '-', displayedNum: '0.12', result: '120983.98000000001' },
@@ -496,7 +496,7 @@ function nightmare(window, expect) {
         testArr.forEach(calculateFuncTest);
       });
 
-      describe('곱샘 연산을 검사합니다', function () {
+      describe('곱셈 연산을 검사합니다', function () {
         const testArr = [
           { firstNum: '0.124', operator: '*', displayedNum: '12.1231', result: '1.5032644000000002' },
           { firstNum: '12.13', operator: '*', displayedNum: '123.42', result: '1497.0846000000001' },
@@ -504,7 +504,7 @@ function nightmare(window, expect) {
         testArr.forEach(calculateFuncTest);
       });
 
-      describe('나눗샘 연산을 검사합니다', function () {
+      describe('나눗셈 연산을 검사합니다', function () {
         const testArr = [
           { firstNum: '1.5032644000000002', operator: '/', displayedNum: '0.124', result: '12.1231' },
           { firstNum: '1497.0846000000001', operator: '/', displayedNum: '12.13', result: '123.42' },
