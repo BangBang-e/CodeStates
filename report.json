@@ -1,0 +1,1209 @@
+{
+  "stats": {
+    "suites": 26,
+    "tests": 84,
+    "passes": 83,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-11-02T07:55:58.490Z",
+    "end": "2022-11-02T07:55:58.555Z",
+    "duration": 65
+  },
+  "tests": [
+    {
+      "title": "clear 버튼을 눌렀을 때, 화면에 0, +, 0, =, 0 순서로 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. clear 버튼을 눌렀을 때, 화면에 0, +, 0, =, 0 순서로 보여야 합니다.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "처음 숫자 버튼을 눌렀을 때, 첫 번째 화면에 누른 숫자가 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. 처음 숫자 버튼을 눌렀을 때, 첫 번째 화면에 누른 숫자가 보여야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼과 연산자 버튼을 눌렀을 때, 첫 번째 화면는 숫자, 두 번째 화면에는 연산자가 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. 숫자 버튼과 연산자 버튼을 눌렀을 때, 첫 번째 화면는 숫자, 두 번째 화면에는 연산자가 보여야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼, 연산자 버튼, 숫자 버튼을 눌렀을 때, 화면에 숫자, 연산자, 순자의 순서로 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. 숫자 버튼, 연산자 버튼, 숫자 버튼을 눌렀을 때, 화면에 숫자, 연산자, 순자의 순서로 보여야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼, 연산자 버튼, 숫자 버튼, 엔터 버튼을 눌렀을 때, 화면에 숫자, 연산자, 숫자, =, 연산 결과의 순서로 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. 숫자 버튼, 연산자 버튼, 숫자 버튼, 엔터 버튼을 눌렀을 때, 화면에 숫자, 연산자, 숫자, =, 연산 결과의 순서로 보여야 합니다.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "연산 시 script.js의 calculate 함수를 활용해야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. 연산 시 script.js의 calculate 함수를 활용해야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "clear 버튼을 눌렀을 때, 화면에 0, +, 0, =, 0 순서로 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. clear 버튼을 눌렀을 때, 화면에 0, +, 0, =, 0 순서로 보여야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 눌렀을 때, 계산기 화면에 숫자가 보여야 합니다.",
+      "fullTitle": "Advanced Challenge test 유어클레스 Advanced Challenge 레슨의 예를 통과합니다. Step 1 - 숫자 버튼을 누르고 화면에 숫자를 입력하기 숫자 버튼을 눌렀을 때, 계산기 화면에 숫자가 보여야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 여러 번 눌렀을 때, 계산기 화면에 숫자가 이어붙여져야(concatenation) 합니다.",
+      "fullTitle": "Advanced Challenge test 유어클레스 Advanced Challenge 레슨의 예를 통과합니다. Step 1 - 숫자 버튼을 누르고 화면에 숫자를 입력하기 숫자 버튼을 여러 번 눌렀을 때, 계산기 화면에 숫자가 이어붙여져야(concatenation) 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "연산자 버튼을 눌렀을 때, 계산기 화면에 보이는 숫자를 따로 저장하고 계산할 준비해야 합니다.",
+      "fullTitle": "Advanced Challenge test 유어클레스 Advanced Challenge 레슨의 예를 통과합니다. Step 2 - Enter 버튼을 눌러 계산하고, AC 버튼으로 초기화 시키기 연산자 버튼을 눌렀을 때, 계산기 화면에 보이는 숫자를 따로 저장하고 계산할 준비해야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Enter 버튼을 눌렀을 때, 계산기 화면에 보이는 숫자와 따로 저장된 숫자를 함께 조합하여 계산한 결과를 화면에 보여줘야 합니다.",
+      "fullTitle": "Advanced Challenge test 유어클레스 Advanced Challenge 레슨의 예를 통과합니다. Step 2 - Enter 버튼을 눌러 계산하고, AC 버튼으로 초기화 시키기 Enter 버튼을 눌렀을 때, 계산기 화면에 보이는 숫자와 따로 저장된 숫자를 함께 조합하여 계산한 결과를 화면에 보여줘야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "AC가 표시된 버튼을 클릭하면 초기화가 되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 유어클레스 Advanced Challenge 레슨의 예를 통과합니다. Step 2 - Enter 버튼을 눌러 계산하고, AC 버튼으로 초기화 시키기 AC 버튼이 잘 클릭 되는지 테스트 합니다. AC가 표시된 버튼을 클릭하면 초기화가 되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1과 2의 합은 3이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 덧샘 연산을 검사합니다 1과 2의 합은 3이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "9492과 848946의 합은 858438이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 덧샘 연산을 검사합니다 9492과 848946의 합은 858438이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1028과 1231의 합은 2259이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 덧샘 연산을 검사합니다 1028과 1231의 합은 2259이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "100과 1100의 합은 1200이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 덧샘 연산을 검사합니다 100과 1100의 합은 1200이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1과 2의 합은 -1이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 1과 2의 합은 -1이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "9492과 9492의 합은 0이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 9492과 9492의 합은 0이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1111과 1100의 합은 11이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 1111과 1100의 합은 11이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1100과 1000의 합은 100이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 1100과 1000의 합은 100이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1과 2의 합은 2이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 곱샘 연산을 검사합니다 1과 2의 합은 2이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "9492과 231의 합은 2192652이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 곱샘 연산을 검사합니다 9492과 231의 합은 2192652이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "100과 100의 합은 10000이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 곱샘 연산을 검사합니다 100과 100의 합은 10000이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "100과 1의 합은 100이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 곱샘 연산을 검사합니다 100과 1의 합은 100이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "4과 2의 합은 2이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 4과 2의 합은 2이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "100과 10의 합은 10이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 100과 10의 합은 10이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "2048과 1024의 합은 2이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 2048과 1024의 합은 2이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "28972456과 2323의 합은 12472이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 28972456과 2323의 합은 12472이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "AC가 표시된 버튼을 클릭하면 초기화가 되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. AC 버튼이 잘 클릭 되는지 테스트 합니다. AC가 표시된 버튼을 클릭하면 초기화가 되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,1,+,1,Enter를 연속으로 누르면 12이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 기본적인 계산기의 기능을 검사합니다. 1,1,+,1,Enter를 연속으로 누르면 12이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,1,-,1,Enter를 연속으로 누르면 10이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 기본적인 계산기의 기능을 검사합니다. 1,1,-,1,Enter를 연속으로 누르면 10이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,5,*,4,Enter를 연속으로 누르면 60이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 기본적인 계산기의 기능을 검사합니다. 1,5,*,4,Enter를 연속으로 누르면 60이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "9,0,/,3,Enter를 연속으로 누르면 30이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 기본적인 계산기의 기능을 검사합니다. 9,0,/,3,Enter를 연속으로 누르면 30이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "0,+,0,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 기본적인 계산기의 기능을 검사합니다. 0,+,0,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "0.2341324과 0.91723의 합은 1.1513624이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 덧샘 연산을 검사합니다 0.2341324과 0.91723의 합은 1.1513624이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "0.1과 0.2의 합은 0.30000000000000004이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 덧샘 연산을 검사합니다 0.1과 0.2의 합은 0.30000000000000004이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3.3과 3의 합은 0.2999999999999998이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 3.3과 3의 합은 0.2999999999999998이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "120984.1과 0.12의 합은 120983.98000000001이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 120984.1과 0.12의 합은 120983.98000000001이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "0.124과 12.1231의 합은 1.5032644000000002이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 곱샘 연산을 검사합니다 0.124과 12.1231의 합은 1.5032644000000002이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "12.13과 123.42의 합은 1497.0846000000001이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 곱샘 연산을 검사합니다 12.13과 123.42의 합은 1497.0846000000001이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1.5032644000000002과 0.124의 합은 12.1231이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 1.5032644000000002과 0.124의 합은 12.1231이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1497.0846000000001과 12.13의 합은 123.42이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 1497.0846000000001과 12.13의 합은 123.42이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,*,3,Enter,Enter,Enter,Enter를 연속으로 누르면 243이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,*,3,Enter,Enter,Enter,Enter를 연속으로 누르면 243이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,-,3,Enter,Enter,Enter,Enter를 연속으로 누르면 -9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,-,3,Enter,Enter,Enter,Enter를 연속으로 누르면 -9이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,+,3,Enter,Enter,Enter,Enter를 연속으로 누르면 15이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,+,3,Enter,Enter,Enter,Enter를 연속으로 누르면 15이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,/,3,Enter,Enter,Enter,Enter를 연속으로 누르면 0.037037037037037035이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,/,3,Enter,Enter,Enter,Enter를 연속으로 누르면 0.037037037037037035이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,Enter,Enter,Enter,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,Enter,Enter,Enter,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,Enter,Enter,Enter,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,Enter,Enter,Enter,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,Enter,Enter,Enter,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,Enter,Enter,Enter,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,Enter,Enter,Enter,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,Enter,Enter,Enter,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,*,*,*,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,*,*,*,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,-,-,-,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,-,-,-,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,+,+,+,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,+,+,+,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,/,/,/,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,/,/,/,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,+,-,*,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,+,-,*,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,/,+,-,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,/,+,-,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,/,/,+,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,/,/,+,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,*,/,-,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,*,/,-,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,*,3,Enter,*,*,*를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,*,3,Enter,*,*,*를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,-,3,Enter,-,-,-를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,-,3,Enter,-,-,-를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,*,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,*,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,-,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,-,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "7,4,2,+,Enter를 연속으로 누르면 1484이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 7,4,2,+,Enter를 연속으로 누르면 1484이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "8,9,1,2,/,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 8,9,1,2,/,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "5,1,-,.,1,2,Enter를 연속으로 누르면 50.88이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 5,1,-,.,1,2,Enter를 연속으로 누르면 50.88이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,0,0,/,.,5,Enter를 연속으로 누르면 200이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 1,0,0,/,.,5,Enter를 연속으로 누르면 200이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,0,0,+,.,.,5,Enter를 연속으로 누르면 100.5이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 1,0,0,+,.,.,5,Enter를 연속으로 누르면 100.5이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,0,0,*,.,.,5,Enter를 연속으로 누르면 50이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 1,0,0,*,.,.,5,Enter를 연속으로 누르면 50이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,.,.,.,.,.,2,+,3,Enter를 연속으로 누르면 6.2이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,.,.,.,.,.,2,+,3,Enter를 연속으로 누르면 6.2이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,.,.,.,.,.,2,-,2,Enter를 연속으로 누르면 1.2000000000000002이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,.,.,.,.,.,2,-,2,Enter를 연속으로 누르면 1.2000000000000002이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,.,2,1,2,4,+,2,.,1,1,2,3,Enter를 연속으로 누르면 5.3247이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,.,2,1,2,4,+,2,.,1,1,2,3,Enter를 연속으로 누르면 5.3247이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "6,2,3,.,1,2,9,3,8,/,1,2,4,Enter를 연속으로 누르면 5.02523693548387이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 6,2,3,.,1,2,9,3,8,/,1,2,4,Enter를 연속으로 누르면 5.02523693548387이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,2,.,.,.,1,2,3,8,*,2,3,Enter를 연속으로 누르면 278.8474이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 1,2,.,.,.,1,2,3,8,*,2,3,Enter를 연속으로 누르면 278.8474이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,0,0,.,.,1,2,5,2,+,1,2,+,1,5,-,-,2,3,-,1,4,4,2,/,2,3,/,/,1,2,*,2,3,Enter를 연속으로 누르면 -111.48956666666668이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 1,0,0,.,.,1,2,5,2,+,1,2,+,1,5,-,-,2,3,-,1,4,4,2,/,2,3,/,/,1,2,*,2,3,Enter를 연속으로 누르면 -111.48956666666668이(가) 화면에 표시되어야 합니다.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '276' to equal '-111.48956666666668'",
+        "showDiff": true,
+        "actual": "276",
+        "expected": "-111.48956666666668",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected '276' to equal '-111.48956666666668'\n    at Context.<anonymous> (spec/script.test.js:619:42)\n    at process.processImmediate (node:internal/timers:471:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "1,0,0,.,.,1,2,5,2,+,1,2,+,1,5,-,-,2,3,-,1,4,4,2,/,2,3,/,/,1,2,*,2,3,Enter를 연속으로 누르면 -111.48956666666668이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 1,0,0,.,.,1,2,5,2,+,1,2,+,1,5,-,-,2,3,-,1,4,4,2,/,2,3,/,/,1,2,*,2,3,Enter를 연속으로 누르면 -111.48956666666668이(가) 화면에 표시되어야 합니다.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '276' to equal '-111.48956666666668'",
+        "showDiff": true,
+        "actual": "276",
+        "expected": "-111.48956666666668",
+        "operator": "strictEqual",
+        "stack": "AssertionError: expected '276' to equal '-111.48956666666668'\n    at Context.<anonymous> (spec/script.test.js:619:42)\n    at process.processImmediate (node:internal/timers:471:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "clear 버튼을 눌렀을 때, 화면에 0, +, 0, =, 0 순서로 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. clear 버튼을 눌렀을 때, 화면에 0, +, 0, =, 0 순서로 보여야 합니다.",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "처음 숫자 버튼을 눌렀을 때, 첫 번째 화면에 누른 숫자가 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. 처음 숫자 버튼을 눌렀을 때, 첫 번째 화면에 누른 숫자가 보여야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼과 연산자 버튼을 눌렀을 때, 첫 번째 화면는 숫자, 두 번째 화면에는 연산자가 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. 숫자 버튼과 연산자 버튼을 눌렀을 때, 첫 번째 화면는 숫자, 두 번째 화면에는 연산자가 보여야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼, 연산자 버튼, 숫자 버튼을 눌렀을 때, 화면에 숫자, 연산자, 순자의 순서로 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. 숫자 버튼, 연산자 버튼, 숫자 버튼을 눌렀을 때, 화면에 숫자, 연산자, 순자의 순서로 보여야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼, 연산자 버튼, 숫자 버튼, 엔터 버튼을 눌렀을 때, 화면에 숫자, 연산자, 숫자, =, 연산 결과의 순서로 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. 숫자 버튼, 연산자 버튼, 숫자 버튼, 엔터 버튼을 눌렀을 때, 화면에 숫자, 연산자, 숫자, =, 연산 결과의 순서로 보여야 합니다.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "연산 시 script.js의 calculate 함수를 활용해야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. 연산 시 script.js의 calculate 함수를 활용해야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "clear 버튼을 눌렀을 때, 화면에 0, +, 0, =, 0 순서로 보여야 합니다.",
+      "fullTitle": "bare minimum test 유어클레스 bare minimum 레슨의 예를 통과합니다. clear 버튼을 눌렀을 때, 화면에 0, +, 0, =, 0 순서로 보여야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 눌렀을 때, 계산기 화면에 숫자가 보여야 합니다.",
+      "fullTitle": "Advanced Challenge test 유어클레스 Advanced Challenge 레슨의 예를 통과합니다. Step 1 - 숫자 버튼을 누르고 화면에 숫자를 입력하기 숫자 버튼을 눌렀을 때, 계산기 화면에 숫자가 보여야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 여러 번 눌렀을 때, 계산기 화면에 숫자가 이어붙여져야(concatenation) 합니다.",
+      "fullTitle": "Advanced Challenge test 유어클레스 Advanced Challenge 레슨의 예를 통과합니다. Step 1 - 숫자 버튼을 누르고 화면에 숫자를 입력하기 숫자 버튼을 여러 번 눌렀을 때, 계산기 화면에 숫자가 이어붙여져야(concatenation) 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "연산자 버튼을 눌렀을 때, 계산기 화면에 보이는 숫자를 따로 저장하고 계산할 준비해야 합니다.",
+      "fullTitle": "Advanced Challenge test 유어클레스 Advanced Challenge 레슨의 예를 통과합니다. Step 2 - Enter 버튼을 눌러 계산하고, AC 버튼으로 초기화 시키기 연산자 버튼을 눌렀을 때, 계산기 화면에 보이는 숫자를 따로 저장하고 계산할 준비해야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Enter 버튼을 눌렀을 때, 계산기 화면에 보이는 숫자와 따로 저장된 숫자를 함께 조합하여 계산한 결과를 화면에 보여줘야 합니다.",
+      "fullTitle": "Advanced Challenge test 유어클레스 Advanced Challenge 레슨의 예를 통과합니다. Step 2 - Enter 버튼을 눌러 계산하고, AC 버튼으로 초기화 시키기 Enter 버튼을 눌렀을 때, 계산기 화면에 보이는 숫자와 따로 저장된 숫자를 함께 조합하여 계산한 결과를 화면에 보여줘야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "AC가 표시된 버튼을 클릭하면 초기화가 되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 유어클레스 Advanced Challenge 레슨의 예를 통과합니다. Step 2 - Enter 버튼을 눌러 계산하고, AC 버튼으로 초기화 시키기 AC 버튼이 잘 클릭 되는지 테스트 합니다. AC가 표시된 버튼을 클릭하면 초기화가 되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1과 2의 합은 3이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 덧샘 연산을 검사합니다 1과 2의 합은 3이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "9492과 848946의 합은 858438이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 덧샘 연산을 검사합니다 9492과 848946의 합은 858438이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1028과 1231의 합은 2259이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 덧샘 연산을 검사합니다 1028과 1231의 합은 2259이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "100과 1100의 합은 1200이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 덧샘 연산을 검사합니다 100과 1100의 합은 1200이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1과 2의 합은 -1이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 1과 2의 합은 -1이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "9492과 9492의 합은 0이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 9492과 9492의 합은 0이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1111과 1100의 합은 11이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 1111과 1100의 합은 11이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1100과 1000의 합은 100이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 1100과 1000의 합은 100이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1과 2의 합은 2이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 곱샘 연산을 검사합니다 1과 2의 합은 2이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "9492과 231의 합은 2192652이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 곱샘 연산을 검사합니다 9492과 231의 합은 2192652이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "100과 100의 합은 10000이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 곱샘 연산을 검사합니다 100과 100의 합은 10000이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "100과 1의 합은 100이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 곱샘 연산을 검사합니다 100과 1의 합은 100이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "4과 2의 합은 2이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 4과 2의 합은 2이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "100과 10의 합은 10이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 100과 10의 합은 10이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "2048과 1024의 합은 2이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 2048과 1024의 합은 2이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "28972456과 2323의 합은 12472이여야 합니다.",
+      "fullTitle": "Advanced Challenge test calculate 함수를 검사합니다. 정수의 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 28972456과 2323의 합은 12472이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 숫자 버튼이 잘 클릭 되는지 테스트 합니다. 숫자 버튼을 클릭하면 화면에 숫자가 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "AC가 표시된 버튼을 클릭하면 초기화가 되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. AC 버튼이 잘 클릭 되는지 테스트 합니다. AC가 표시된 버튼을 클릭하면 초기화가 되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,1,+,1,Enter를 연속으로 누르면 12이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 기본적인 계산기의 기능을 검사합니다. 1,1,+,1,Enter를 연속으로 누르면 12이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,1,-,1,Enter를 연속으로 누르면 10이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 기본적인 계산기의 기능을 검사합니다. 1,1,-,1,Enter를 연속으로 누르면 10이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,5,*,4,Enter를 연속으로 누르면 60이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 기본적인 계산기의 기능을 검사합니다. 1,5,*,4,Enter를 연속으로 누르면 60이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "9,0,/,3,Enter를 연속으로 누르면 30이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 기본적인 계산기의 기능을 검사합니다. 9,0,/,3,Enter를 연속으로 누르면 30이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "0,+,0,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Advanced Challenge test 계산기의 작동을 테스트 합니다. 기본적인 계산기의 기능을 검사합니다. 0,+,0,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "0.2341324과 0.91723의 합은 1.1513624이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 덧샘 연산을 검사합니다 0.2341324과 0.91723의 합은 1.1513624이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "0.1과 0.2의 합은 0.30000000000000004이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 덧샘 연산을 검사합니다 0.1과 0.2의 합은 0.30000000000000004이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3.3과 3의 합은 0.2999999999999998이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 3.3과 3의 합은 0.2999999999999998이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "120984.1과 0.12의 합은 120983.98000000001이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 뺄샘 연산을 검사합니다 120984.1과 0.12의 합은 120983.98000000001이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "0.124과 12.1231의 합은 1.5032644000000002이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 곱샘 연산을 검사합니다 0.124과 12.1231의 합은 1.5032644000000002이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "12.13과 123.42의 합은 1497.0846000000001이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 곱샘 연산을 검사합니다 12.13과 123.42의 합은 1497.0846000000001이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1.5032644000000002과 0.124의 합은 12.1231이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 1.5032644000000002과 0.124의 합은 12.1231이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1497.0846000000001과 12.13의 합은 123.42이여야 합니다.",
+      "fullTitle": "Nightmare test calculate 함수를 검사합니다. 실수 연산을 테스트 합니다. 나눗샘 연산을 검사합니다 1497.0846000000001과 12.13의 합은 123.42이여야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,*,3,Enter,Enter,Enter,Enter를 연속으로 누르면 243이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,*,3,Enter,Enter,Enter,Enter를 연속으로 누르면 243이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,-,3,Enter,Enter,Enter,Enter를 연속으로 누르면 -9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,-,3,Enter,Enter,Enter,Enter를 연속으로 누르면 -9이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,+,3,Enter,Enter,Enter,Enter를 연속으로 누르면 15이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,+,3,Enter,Enter,Enter,Enter를 연속으로 누르면 15이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,/,3,Enter,Enter,Enter,Enter를 연속으로 누르면 0.037037037037037035이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,/,3,Enter,Enter,Enter,Enter를 연속으로 누르면 0.037037037037037035이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,Enter,Enter,Enter,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,Enter,Enter,Enter,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,Enter,Enter,Enter,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,Enter,Enter,Enter,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,Enter,Enter,Enter,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,Enter,Enter,Enter,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,Enter,Enter,Enter,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,Enter,Enter,Enter,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,*,*,*,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,*,*,*,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,-,-,-,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,-,-,-,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,+,+,+,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,+,+,+,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,/,/,/,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,/,/,/,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,+,-,*,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,+,-,*,/,3,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,/,+,-,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,/,+,-,*,3,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,/,/,+,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,/,/,+,-,3,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,*,/,-,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,*,/,-,+,3,Enter를 연속으로 누르면 6이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,*,3,Enter,*,*,*를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,*,3,Enter,*,*,*를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,-,3,Enter,-,-,-를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,-,3,Enter,-,-,-를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,*,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,*,Enter를 연속으로 누르면 9이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,-,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,-,Enter를 연속으로 누르면 0이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "7,4,2,+,Enter를 연속으로 누르면 1484이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 7,4,2,+,Enter를 연속으로 누르면 1484이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "8,9,1,2,/,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 8,9,1,2,/,Enter를 연속으로 누르면 1이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "5,1,-,.,1,2,Enter를 연속으로 누르면 50.88이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 5,1,-,.,1,2,Enter를 연속으로 누르면 50.88이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,0,0,/,.,5,Enter를 연속으로 누르면 200이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 1,0,0,/,.,5,Enter를 연속으로 누르면 200이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,0,0,+,.,.,5,Enter를 연속으로 누르면 100.5이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 1,0,0,+,.,.,5,Enter를 연속으로 누르면 100.5이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,0,0,*,.,.,5,Enter를 연속으로 누르면 50이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 1,0,0,*,.,.,5,Enter를 연속으로 누르면 50이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,.,.,.,.,.,2,+,3,Enter를 연속으로 누르면 6.2이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,.,.,.,.,.,2,+,3,Enter를 연속으로 누르면 6.2이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,.,.,.,.,.,2,-,2,Enter를 연속으로 누르면 1.2000000000000002이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,.,.,.,.,.,2,-,2,Enter를 연속으로 누르면 1.2000000000000002이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "3,.,2,1,2,4,+,2,.,1,1,2,3,Enter를 연속으로 누르면 5.3247이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 3,.,2,1,2,4,+,2,.,1,1,2,3,Enter를 연속으로 누르면 5.3247이(가) 화면에 표시되어야 합니다.",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "6,2,3,.,1,2,9,3,8,/,1,2,4,Enter를 연속으로 누르면 5.02523693548387이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 6,2,3,.,1,2,9,3,8,/,1,2,4,Enter를 연속으로 누르면 5.02523693548387이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "1,2,.,.,.,1,2,3,8,*,2,3,Enter를 연속으로 누르면 278.8474이(가) 화면에 표시되어야 합니다.",
+      "fullTitle": "Nightmare test 계산기의 작동을 테스트 합니다. 혹시 발생할 수 있는 특이한 작동 시 기능을 검사합니다. 1,2,.,.,.,1,2,3,8,*,2,3,Enter를 연속으로 누르면 278.8474이(가) 화면에 표시되어야 합니다.",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
