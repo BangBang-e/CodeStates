@@ -104,6 +104,7 @@ main {
 .far,
 .fas {
   font-size: 2rem;
+  /* color: var(--default-text-color); */
   color: var(--default-text-color);
   padding: 1.3rem;
   cursor: pointer;
