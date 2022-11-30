@@ -1,25 +1,39 @@
 // TODO : useState를 react로 부터 import 합니다.
-import React, { /* TODO */ } from 'react';
+import React, { useState를 } from 'react';
 import Footer from '../Footer';
 import Tweet from '../Components/Tweet';
 import './Tweets.css';
 import dummyTweets from '../static/dummyData';
+import {useState} from 'react'
 
 const Tweets = () => {
   // TODO : 새로 트윗을 작성하고 전송할 수 있게 useState를 적절히 활용하세요.
+  const [user, setUser] = useState("parkhacker");
+  const [msg, setMsg] = useState("");
+  const [data, setData] = useState(dummyTweets);
 
   const handleButtonClick = (event) => {
-    const tweet = {};
+    const tweet = {
+      id: data.length + 1,
+      username: user,
+      picture: `https://randomuser.me/api/portraits/men/98.jpg`,
+      content: msg,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+    };
+    setData([tweet, ...data]);
     // TODO : Tweet button 엘리먼트 클릭시 작동하는 함수를 완성하세요.
     // 트윗 전송이 가능하게 작성해야 합니다.
   };
 
   const handleChangeUser = (event) => {
     // TODO : Tweet input 엘리먼트에 입력 시 작동하는 함수를 완성하세요.
+    setUser(event.target.value)
   };
 
   const handleChangeMsg = (event) => {
     // TODO : Tweet textarea 엘리먼트에 입력 시 작동하는 함수를 완성하세요.
+    setMsg(event.target.value)
   };
 
   return (
@@ -37,19 +51,29 @@ const Tweets = () => {
                   defaultValue="parkhacker"
                   placeholder="your username here.."
                   className="tweetForm__input--username"
+                  onChange={handleChangeUser}
                 ></input>
-                TODO : 트윗을 작성할 수 있는 textarea 엘리먼트를 작성하세요.
+                {/* TODO : 트윗을 작성할 수 있는 textarea 엘리먼트를 작성하세요. */}
+                <textarea
+                  className="tweetForm__input--message"
+                  onChange={handleChangeMsg}
+                ></textarea>
               </div>
               <div className="tweetForm__count" role="status">
                 <span className="tweetForm__count__text">
                   {/* TODO : 트윗 총 개수를 보여줄 수 있는 Counter를 작성하세요. */}
-                  {'total: '}
+                  {`total: ${data.length}`}
                 </span>
               </div>
             </div>
             <div className="tweetForm__submit">
               <div className="tweetForm__submitIcon"></div>
               {/* TODO : 작성한 트윗을 전송할 수 있는 button 엘리먼트를 작성하세요. */}
+              <button
+                className="tweetForm__submitButton"
+                onClick={handleButtonClick}>
+                  Tweet
+              </button>
             </div>
           </div>
         </div>
@@ -57,7 +81,7 @@ const Tweets = () => {
       <div className="tweet__selectUser"></div>
       <ul className="tweets">
         {/* TODO : 하나의 트윗이 아니라, 주어진 트윗 목록(dummyTweets) 갯수에 맞게 보여줘야 합니다. */}
-        <Tweet tweet={dummyTweets[0]} />
+        {data.map((tweet) => <Tweet tweet={tweet} key={tweet.id}/>)}
       </ul>
       <Footer />
     </React.Fragment>
