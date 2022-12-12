@@ -1,24 +1,25 @@
-const http = require('http');
+const express = require('express')
+const cors = require('cors');
+const jsonParser = express.json({ strict: false });
 
-const PORT = 4999;
-
+const app = express()
+const port = 4999;
 const ip = 'localhost';
 
-const server = http.createServer((request, response) => {
-  console.log(
-    `http request method is ${request.method}, url is ${request.url}`
-  );
-  response.writeHead(200, defaultCorsHeader);
-  response.end('hello mini-server sprints');
-});
+app.use(jsonParser);
 
-server.listen(PORT, ip, () => {
-  console.log(`http server listen on ${ip}:${PORT}`);
-});
+app.get('/', (req, res) => {
+  res.send()
+})
 
-const defaultCorsHeader = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type, Accept',
-  'Access-Control-Max-Age': 10
-};
+app.post('/upper', function (req, res) {
+  res.json(req.body.toUpperCase())
+})
+
+app.post('/lower', function (req, res) {
+  res.json(req.body.toLowerCase())
+})
+
+app.listen(port, ip, () => {
+  console.log(`Example app listening on port ${ip}:${port}`)
+})
