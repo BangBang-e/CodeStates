@@ -9,9 +9,7 @@ import Debug from './component/Debug';
 
 export default function Main() {
   // 항공편 검색 조건을 담고 있는 상태
-  const [condition, setCondition] = useState({
-    departure: 'ICN'
-  }); 
+  const [condition, setCondition] = useState({departure:'', destination:''}); 
   const [flightList, setFlightList] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
