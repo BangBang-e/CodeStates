@@ -1,10 +1,9 @@
 // TODO : useState를 react로 부터 import 합니다.
-import React, { useState를 } from 'react';
+import React, { useState } from 'react';
 import Footer from '../Footer';
 import Tweet from '../Components/Tweet';
 import './Tweets.css';
 import dummyTweets from '../static/dummyData';
-import {useState} from 'react'
 
 const Tweets = () => {
   // TODO : 새로 트윗을 작성하고 전송할 수 있게 useState를 적절히 활용하세요.
@@ -18,8 +17,8 @@ const Tweets = () => {
       username: user,
       picture: `https://randomuser.me/api/portraits/men/98.jpg`,
       content: msg,
-      createdAt: new Date(),
-      updatedAt: new Date(),
+      createdAt: new Date().toLocaleDateString('ko-KR'),
+      updatedAt: new Date().toLocaleDateString('ko-KR'),
     };
     setData([tweet, ...data]);
     // TODO : Tweet button 엘리먼트 클릭시 작동하는 함수를 완성하세요.
@@ -48,7 +47,7 @@ const Tweets = () => {
               <div className="tweetForm__input">
                 <input
                   type="text"
-                  defaultValue="parkhacker"
+                  value={user}
                   placeholder="your username here.."
                   className="tweetForm__input--username"
                   onChange={handleChangeUser}
@@ -56,6 +55,7 @@ const Tweets = () => {
                 {/* TODO : 트윗을 작성할 수 있는 textarea 엘리먼트를 작성하세요. */}
                 <textarea
                   className="tweetForm__input--message"
+                  value={msg}
                   onChange={handleChangeMsg}
                 ></textarea>
               </div>
