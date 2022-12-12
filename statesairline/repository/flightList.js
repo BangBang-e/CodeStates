@@ -75,5 +75,13 @@ module.exports = [
     destination: 'ICN',
     departure_times: '2021-12-02T12:00:00',
     arrival_times: '2021-12-03T12:00:00'
+  },
+  {
+    uuid: 'af6fa55c-da65-47dd-af23-578fdba51bed',
+    departure: 'ULS',
+    destination: 'ICN',
+    departure_times: '2021-12-02T12:00:00',
+    arrival_times: '2021-12-03T12:00:00'
   }
 ];
+

@@ -8,15 +8,42 @@ module.exports = {
   findAll: (req, res) => {
     const { departure_times, arrival_times, destination, departure } = req.query;
     // TODO:
-
-    return res.json(flights);
+    // if (Object.keys(req.query).length === 0) {
+    //   return res.json(flights)
+    // } else if (departure_times !== undefined && arrival_times !== undefined) {
+    //   const data = flights.filter((flight) => {
+    //     return flight.departure_times === departure_times && flight.arrival_times === arrival_times
+    //   })
+    //   return res.json(data)
+    // } else if (destination && departure) {
+    //   const data = flights.filter((flight) => {
+    //     return flight.destination === destination && flight.departure === departure
+    //   })
+    //   return res.json(data)
+    // }
+    if(!req.query) return res.json(flights);
+    else{
+      const filteredFlight = flights.filter(flight => {
+        let condition = true;
+        if(departure_times) condition = condition && flight.departure_times === departure_times;
+        if(arrival_times) condition = condition && flight.arrival_times === arrival_times;
+        if(departure) condition = condition && flight.departure === departure;
+        if(destination) condition = condition && flight.destination === destination;
+  
+        return condition;
+      })
+      return res.json(filteredFlight);
+    }
   },
   // [GET] /flight/:uuid
   // 요청 된 uuid 값과 동일한 uuid 값을 가진 항공편 데이터를 조회합니다.
   findById: (req, res) => {
     const { uuid } = req.params;
     // TODO:
-
+    const data = flights.filter((flight) => {
+      return flight.uuid === uuid
+    })
+    return res.json(data)
   },
 
   // Advanced
@@ -25,6 +52,13 @@ module.exports = {
   update: (req, res) => {
     const { uuid } = req.params;
     const bodyData = req.body;
-     // TODO:
+    // TODO:
+    const beUpdatedIdx = flights.findIndex((flight) => {
+      return flight.uuid === uuid
+    })
+    const updateFlight = { ...flights[beUpdatedIdx], ...bodyData }
+    flights.splice(beUpdatedIdx, 1, updateFlight)
+    return res.json(updateFlight)
   }
 };
+
