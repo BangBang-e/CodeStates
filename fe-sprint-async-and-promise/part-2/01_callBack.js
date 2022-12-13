@@ -9,7 +9,7 @@ const getDataFromFile = function (filePath, callback) {
   // readFile(path = 스트링 혹은 디렉토리, option = utf-8, ...
   // ...callback(err, data) => (if err)일 때 콜백함수의 전달인자로...
   // ...err가 전달되어야 함) else일때 콜백함수의 전달인자가 (err, data))
-  fs.readFile(filePath, 'utf-8', (err, data) => {
+  fs.readFile(filepath, 'utf8', (err, data)=> {
     if(err){
       callback(err, null)
     }else{

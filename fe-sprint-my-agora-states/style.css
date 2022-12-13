@@ -134,6 +134,13 @@ section.discussion__wrapper{
     box-shadow: rgba(158, 182, 204, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
+img{
+    width: 55px;
+    border-radius: 50%;
+    margin: 0px 5px 0px 15px;
+    flex-grow: 1;
+}
+
 .discussion__content{
     display: flex;
     flex-grow: 2;
