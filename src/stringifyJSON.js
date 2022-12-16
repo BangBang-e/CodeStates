@@ -26,7 +26,25 @@
  * 하지만 이 과제의 목적은 재귀를 공부하는 것이니, 처음부터 구현해봐야겠지요?:
  */
 function stringifyJSON(obj) {
-  // your code goes here
+  if(typeof obj === 'number' || obj === null || typeof obj === 'boolean') return `${obj}`
+  if(typeof obj === 'string') return `"${obj}"`
+  if(Array.isArray(obj)){
+    let newArr = [];
+    for(let elem of obj){
+      newArr.push(stringifyJSON(elem))
+    }
+    return `[${newArr}]`
+  }
+  if(typeof obj === 'object'){
+    let newObj = "";
+    for(let key in obj){
+      let objKey = stringifyJSON(key)
+      let objValue = stringifyJSON(obj[key]) //*
+      if(typeof objValue === 'function' || typeof objValue === 'undefined') return '{}';
+      newObj += `${objKey}:${objValue},`
+    }
+    return `{${newObj.slice(0, -1)}}`
+  }
 };
 
 // 다음 코드는 결과 제출을 위한 코드입니다. 신경 쓰지 않아도 좋습니다.
