@@ -40,7 +40,7 @@ function stringifyJSON(obj) {
     for(let key in obj){
       let objKey = stringifyJSON(key)
       let objValue = stringifyJSON(obj[key]) //*
-      if(typeof objValue === 'function' || typeof objValue === 'undefined') return '{}';
+      if(typeof objValue === 'function' || typeof objValue === 'undefined') continue;
       newObj += `${objKey}:${objValue},`
     }
     return `{${newObj.slice(0, -1)}}`
