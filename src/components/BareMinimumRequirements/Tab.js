@@ -20,9 +20,11 @@ const TabMenu = styled.ul`
     display: flex;
     justify-content: space-between;
     width: 90px;
+    width: calc(100%/3);
     height: 40px;
     font-size: 1.2rem;
     padding: 10px;
+    transition: 0.3s;
   }
 
   .focused {
@@ -30,6 +32,7 @@ const TabMenu = styled.ul`
     background-color: var(--coz-purple-600);
     color: white;
     font-size: 1.3rem;
+    transition: 0.3s;
   }
 
   & div.desc {

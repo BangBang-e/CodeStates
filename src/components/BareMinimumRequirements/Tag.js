@@ -74,8 +74,7 @@ export const Tag = () => {
   const [tags, setTags] = useState(initialTags);
   const removeTags = (indexToRemove) => {
     // TODO : 태그를 삭제하는 메소드를 완성하세요.
-    const filter = tags.filter((el, index) => !(index === indexToRemove));
-    setTags(filter);
+    setTags(tags.filter((el, index) => index !== indexToRemove));
   };
 
   const addTags = (event) => {
@@ -108,7 +107,7 @@ export const Tag = () => {
         <input
           className="tag-input"
           type="text"
-          onKeyUp={(el) => addTags(el)}
+          onKeyUp={(e) => addTags(e)}
           placeholder="Press enter to add tags"
         />
       </TagsInput>
