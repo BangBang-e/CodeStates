@@ -13,12 +13,12 @@ function App() {
 
   return (
     <Router>
-      <Nav />
+      <Nav count={cartItems.length}/>
       <Routes>
-        <Route path="/" element={<ItemListContainer items={items} />} />
+        <Route exact={true} path="/" element={<ItemListContainer items={items} cartItems={cartItems} setCartItems={setCartItems}/>} />
         <Route
           path="/shoppingcart"
-          element={<ShoppingCart cartItems={cartItems} items={items} />}
+          element={<ShoppingCart items={items} cartItems={cartItems} setCartItems={setCartItems}/>}
         />
       </Routes>
       <img
