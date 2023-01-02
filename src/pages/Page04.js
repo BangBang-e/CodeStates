@@ -5,7 +5,7 @@ const Page04 = () => {
     const [currentTab1, setCurrentTab1] = useState(0)
     const [currentTab2, setCurrentTab2] = useState(0)
     const { tab } = data
-    
+
     return (
         <article>
             <h1>문제 4 : 콘텐츠 선형 구조</h1>
@@ -17,13 +17,13 @@ const Page04 = () => {
                 <h2>예시 1</h2>
                 <div class="tabContainer">
                     <div className="tabList">
-                        <div className={currentTab1 === 0 ? "tab selected" : "tab"} onClick={()=>setCurrentTab1(0)}>{tab.tab1.title}</div>
-                        <div className={currentTab1 === 1 ? "tab selected" : "tab"} onClick={()=>setCurrentTab1(1)}>{tab.tab2.title}</div>
-                        <div className={currentTab1 === 2 ? "tab selected" : "tab"} onClick={()=>setCurrentTab1(2)}>{tab.tab3.title}</div>
+                        <div className={currentTab1 === 0 ? "tab selected" : "tab"} onClick={() => setCurrentTab1(0)}>{tab.tab1.title}</div>
+                        <div className={currentTab1 === 1 ? "tab selected" : "tab"} onClick={() => setCurrentTab1(1)}>{tab.tab2.title}</div>
+                        <div className={currentTab1 === 2 ? "tab selected" : "tab"} onClick={() => setCurrentTab1(2)}>{tab.tab3.title}</div>
                     </div>
-                    <div className={currentTab1 === 0 ? "block" : "none"}>{tab.tab1.content.map((el,idx)=> <li key={idx}>{el}</li>)}</div>
-                    <div className={currentTab1 === 1 ? "block" : "none"}>{tab.tab2.content.map((el,idx)=> <li key={idx}>{el}</li>)}</div>
-                    <div className={currentTab1 === 2 ? "block" : "none"}>{tab.tab3.content.map((el,idx)=> <li key={idx}>{el}</li>)}</div>
+                    <div className={currentTab1 === 0 ? "block" : "none"}>{tab.tab1.content.map((el, idx) => <li key={idx}>{el}</li>)}</div>
+                    <div className={currentTab1 === 1 ? "block" : "none"}>{tab.tab2.content.map((el, idx) => <li key={idx}>{el}</li>)}</div>
+                    <div className={currentTab1 === 2 ? "block" : "none"}>{tab.tab3.content.map((el, idx) => <li key={idx}>{el}</li>)}</div>
                 </div>
             </section>
             <section>
@@ -31,16 +31,16 @@ const Page04 = () => {
                 <div class="tabContainer">
                     <div className="tabList">
                         <div>
-                            <div className={currentTab2 === 0 ? "tab selected" : "tab"} onClick={()=>setCurrentTab2(0)}>{tab.tab1.title}</div>
-                            <div className={`tabPanel${currentTab2 === 0 ? " block" : " none"}`}>{tab.tab1.content.map((el,idx)=> <li key={idx}>{el}</li>)}</div>
+                            <div className={currentTab2 === 0 ? "tab selected" : "tab"} onClick={() => setCurrentTab2(0)}>{tab.tab1.title}</div>
+                            <div className={`tabPanel${currentTab2 === 0 ? " block" : " none"}`}>{tab.tab1.content.map((el, idx) => <li key={idx}>{el}</li>)}</div>
                         </div>
                         <div>
-                            <div className={currentTab2 === 1 ? "tab selected" : "tab"}  onClick={()=>setCurrentTab2(1)}>{tab.tab2.title}</div>
-                            <div className={`tabPanel${currentTab2 === 1 ? " block one" : " none"}`}>{tab.tab2.content.map((el,idx)=> <li key={idx}>{el}</li>)}</div>
+                            <div className={currentTab2 === 1 ? "tab selected" : "tab"} onClick={() => setCurrentTab2(1)}>{tab.tab2.title}</div>
+                            <div className={`tabPanel${currentTab2 === 1 ? " block one" : " none"}`}>{tab.tab2.content.map((el, idx) => <li key={idx}>{el}</li>)}</div>
                         </div>
                         <div>
-                            <div className={currentTab2 === 2 ? "tab selected" : "tab"}  onClick={()=>setCurrentTab2(2)}>{tab.tab3.title}</div>
-                            <div className={`tabPanel${currentTab2 === 2 ? " block two" : " none"}`}>{tab.tab3.content.map((el,idx)=> <li key={idx}>{el}</li>)}</div>
+                            <div className={currentTab2 === 2 ? "tab selected" : "tab"} onClick={() => setCurrentTab2(2)}>{tab.tab3.title}</div>
+                            <div className={`tabPanel${currentTab2 === 2 ? " block two" : " none"}`}>{tab.tab3.content.map((el, idx) => <li key={idx}>{el}</li>)}</div>
                         </div>
                     </div>
                 </div>

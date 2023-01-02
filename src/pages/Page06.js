@@ -55,33 +55,33 @@ const Page06 = () => {
                     <caption>Cmarket 판매총액</caption>
                     <thead>
                         <tr>
-                            <th scope="col">(col)<br/>상품명</th>
-                            <th scope="col">(col)<br/>판매가</th>
-                            <th scope="col">(col)<br/>판매량</th>
-                            <th scope="col">(col)<br/>판매총액</th>
+                            <th scope="col">(col)<br />상품명</th>
+                            <th scope="col">(col)<br />판매가</th>
+                            <th scope="col">(col)<br />판매량</th>
+                            <th scope="col">(col)<br />판매총액</th>
                         </tr>
-                        </thead>
+                    </thead>
                     <tbody>
                         <tr>
-                            <td scope="row">(row)<br/>2020년 달력</td>
+                            <td scope="row">(row)<br />2020년 달력</td>
                             <td>12,000원</td>
                             <td>6개</td>
                             <td>72,000원</td>
                         </tr>
                         <tr>
-                            <td scope="row">(row)<br/>개구리 안대</td>
+                            <td scope="row">(row)<br />개구리 안대</td>
                             <td>2,900원</td>
                             <td>4개</td>
                             <td>11,600원</td>
                         </tr>
                         <tr>
-                            <td scope="row">(row)<br/>잉어 슈즈</td>
+                            <td scope="row">(row)<br />잉어 슈즈</td>
                             <td>3,900원</td>
                             <td>7개</td>
                             <td>27,300원</td>
                         </tr>
                         <tr>
-                            <td scope="row">(row)<br/>노른자 분리기</td>
+                            <td scope="row">(row)<br />노른자 분리기</td>
                             <td>9,900원</td>
                             <td>5개</td>
                             <td>49,500원</td>
@@ -96,36 +96,36 @@ const Page06 = () => {
                     <caption>Cmarket 판매총액</caption>
                     <thead>
                         <tr>
-                            <th id="A">상품명<br/>(A)</th>
-                            <th id="B">판매가<br/>(B)</th>
-                            <th id="C">판매량<br/>(C)</th>
-                            <th id="D">판매총액<br/>(D)</th>
+                            <th id="A">상품명<br />(A)</th>
+                            <th id="B">판매가<br />(B)</th>
+                            <th id="C">판매량<br />(C)</th>
+                            <th id="D">판매총액<br />(D)</th>
                         </tr>
-                        </thead>
+                    </thead>
                     <tbody>
                         <tr>
-                            <td id="a">2020년 달력<br/>(a)</td>
-                            <td headers="B a">12,000원<br/>(B a)</td>
-                            <td headers="C a">6개<br/>(C a)</td>
-                            <td headers="D a">72,000원<br/>(D a)</td>
+                            <td id="a">2020년 달력<br />(a)</td>
+                            <td headers="B a">12,000원<br />(B a)</td>
+                            <td headers="C a">6개<br />(C a)</td>
+                            <td headers="D a">72,000원<br />(D a)</td>
                         </tr>
                         <tr>
-                            <td id="b">개구리 안대<br/>(b)</td>
-                            <td headers="B b">2,900원<br/>(B b)</td>
-                            <td headers="C b">4개<br/>(C b)</td>
-                            <td headers="D b">11,600원<br/>(D b)</td>
+                            <td id="b">개구리 안대<br />(b)</td>
+                            <td headers="B b">2,900원<br />(B b)</td>
+                            <td headers="C b">4개<br />(C b)</td>
+                            <td headers="D b">11,600원<br />(D b)</td>
                         </tr>
                         <tr>
-                            <td id="c">잉어 슈즈<br/>(c)</td>
-                            <td headers="B c">3,900원<br/>(B c)</td>
-                            <td headers="C c">7개<br/>(C c)</td>
-                            <td headers="D c">27,300원<br/>(D c)</td>
+                            <td id="c">잉어 슈즈<br />(c)</td>
+                            <td headers="B c">3,900원<br />(B c)</td>
+                            <td headers="C c">7개<br />(C c)</td>
+                            <td headers="D c">27,300원<br />(D c)</td>
                         </tr>
                         <tr>
-                            <td id="d">노른자 분리기<br/>(d)</td>
-                            <td headers="B d">9,900원<br/>(B d)</td>
-                            <td headers="C d">5개<br/>(C d)</td>
-                            <td headers="D d">49,500원<br/>(D d)</td>
+                            <td id="d">노른자 분리기<br />(d)</td>
+                            <td headers="B d">9,900원<br />(B d)</td>
+                            <td headers="C d">5개<br />(C d)</td>
+                            <td headers="D d">49,500원<br />(D d)</td>
                         </tr>
                     </tbody>
                 </table>
@@ -144,11 +144,71 @@ const Page06 = () => {
                 </li>
                 <li>
                     scope 속성 사용
-                    <table></table>
+                    <table>
+                        <caption>바밤바 시리즈 정리</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">이름</th>
+                                <th scope="col">당류</th>
+                                <th scope="col">내용량</th>
+                                <th scope="col">칼로리</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">바밤바</td>
+                                <td scope="row">13g</td>
+                                <td scope="row">70ml</td>
+                                <td scope="row">100kcal</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">배뱀배</td>
+                                <td scope="row">14g</td>
+                                <td scope="row">70ml</td>
+                                <td scope="row">75kcal</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">바밤바샌드</td>
+                                <td scope="row">24g</td>
+                                <td scope="row">180ml</td>
+                                <td scope="row">240kcal</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </li>
                 <li>
                     id, headers 속성 사용
-                    <table></table>
+                    <table>
+                        <caption>바밤바 시리즈 정리</caption>
+                        <thead>
+                            <tr>
+                                <th id="A">이름</th>
+                                <th id="B">당류</th>
+                                <th id="C">내용량</th>
+                                <th id="D">칼로리</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="a">바밤바</td>
+                                <td headers="B a">13g</td>
+                                <td headers="C a">70ml</td>
+                                <td headers="D a">100kcal</td>
+                            </tr>
+                            <tr>
+                                <td id="b">배뱀배</td>
+                                <td headers="B b">14g</td>
+                                <td headers="C b">70ml</td>
+                                <td headers="D b">75kcal</td>
+                            </tr>
+                            <tr>
+                                <td id="c">바밤바샌드</td>
+                                <td headers="B c">24g</td>
+                                <td headers="C c">180ml</td>
+                                <td headers="D c">240kcal</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </li>
             </section>
         </article>
