@@ -40,7 +40,7 @@ const Page03 = () => {
                     <li>이미지를 충분히 설명해주는 인접 요소가 있다면 대체 텍스트로 빈 문자열을 작성하는 것이 좋습니다.
                         <li>내용을 중복해서 전달할 필요가 없기 때문입니다.</li>
                     </li>
-                    <img src={redPandaImage} alt="혀를 내밀고 있는 레서 팬더" />
+                    <img src={redPandaImage} alt="" />
                     <p>래서 펜더가 대나무를 앞발로 잡고 혀를 내밀고 있다.</p>
                 </section>
             </section>
