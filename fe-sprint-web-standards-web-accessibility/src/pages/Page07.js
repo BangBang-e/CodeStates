@@ -9,7 +9,7 @@ const Page07 = () => {
                 <h2>예시 1</h2>
                 <li>{`<input>`}요소만 있으면 무엇을 입력하라는 의미인지 알 수 없습니다. 레이블을 꼭 작성해주세요.</li>
                 <div className="inputContainer">
-                    <label for="text">텍스트</label>
+                    <label htmlFor="text">텍스트</label>
                     <input type="text" />
                 </div>
             </section>
@@ -19,9 +19,9 @@ const Page07 = () => {
                     <li>placeholder는 내용을 입력하는 순간 사라지기 때문에 일부 스크린 리더는 읽지 못하게 됩니다.</li>
                 </li>
                 <div className="inputContainer">
-                    <label for="id">아이디</label>
+                    <label htmlFor="id">아이디</label>
                     <input type="text" placeholder="아이디" />
-                    <label for="password">비밀번호</label>
+                    <label htmlFor="password">비밀번호</label>
                     <input type="text" placeholder="비밀번호" />
                 </div>
             </section>
@@ -32,11 +32,9 @@ const Page07 = () => {
                     <li>작성 후 {`<label>`}요소를 클릭하면 어떻게 되는지 확인해보세요.</li>
                 </li>
                 <div className="inputContainer">
-                    <label for="id" />
-                    <span>아이디</span>
+                    <label htmlFor="아이디">아이디</label>
                     <input id="아이디" type="text" />
-                    <label for="password" />
-                    <span>비밀번호</span>
+                    <label htmlFor="비밀번호">비밀번호</label>
                     <input id="비밀번호" type="text" />
                 </div>
             </section>
@@ -46,7 +44,7 @@ const Page07 = () => {
                     <li>단, WAI-ARIA의 경우 꼭 필요한 경우가 아니라면 사용하지 않는 것이 좋습니다. 다른 HTML 속성이나 요소로 대체 가능한 경우에는 해당 속성이나 요소를 우선적으로 사용해주세요.</li>
                 </li>
                 <div className="inputContainer">
-                    <input type="text" aria-label="text" />
+                    <input type="text" />
                 </div>
             </section>
         </article>

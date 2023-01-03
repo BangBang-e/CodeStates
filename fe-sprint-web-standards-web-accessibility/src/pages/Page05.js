@@ -19,13 +19,13 @@ const Page05 = () => {
                 <section>
                     <h3>예시 1 : 역할(Role)</h3>
                     <li>요소의 이름이 요소의 역할을 충분히 설명하지 못할 때 사용할 수 있습니다.
-                        <div role="button" className="button">요소는 div</div>
+                        <button className="button">요소는 div</button>
                     </li>
                     <li>요소의 이름으로 요소의 역할을 파악할 수 있을 때는 사용하지 마세요.
                         <button>요소는 button</button>
                     </li>
                     <li>요소 본연의 역할을 바꾸지 마세요.
-                        <h3 role="h3" className="button">요소는 h3</h3>
+                        <h3 className="button">요소는 h3</h3>
                     </li>
                     <h3>예시 1 - 문제</h3>
                     <li>아래 예시는 문제 4에서 보았던 탭 컴포넌트입니다. 각 컴포넌트에 맞는 역할을 WAI-ARIA로 작성해보세요.</li>
