@@ -60,9 +60,9 @@ export default function ShoppingCart() {
   const total = getTotal()
 
   return (
-    <div id="item-list-container">
+    <main id="item-list-container">
       <div id="item-list-body">
-        <div id="item-list-title">장바구니</div>
+        <h3 id="item-list-title">장바구니</h3>
         <span id="shopping-cart-select-all">
           <input
             type="checkbox"
@@ -71,7 +71,7 @@ export default function ShoppingCart() {
             }
             onChange={(e) => handleAllCheck(e.target.checked)} >
           </input>
-          <label >전체선택</label>
+          <label htmlFor="select-all-checkbox">전체선택</label>
         </span>
         <div id="shopping-cart-container">
           {!cartItems.length ? (
@@ -79,24 +79,24 @@ export default function ShoppingCart() {
               장바구니에 아이템이 없습니다.
             </div>
           ) : (
-              <div id="cart-item-list">
-                {renderItems.map((item, idx) => {
-                  const quantity = cartItems.filter(el => el.itemId === item.id)[0].quantity
-                  return <CartItem
-                    key={idx}
-                    handleCheckChange={handleCheckChange}
-                    handleQuantityChange={handleQuantityChange}
-                    handleDelete={handleDelete}
-                    item={item}
-                    checkedItems={checkedItems}
-                    quantity={quantity}
-                  />
-                })}
-              </div>
-            )}
+            <div id="cart-item-list">
+              {renderItems.map((item, idx) => {
+                const quantity = cartItems.filter(el => el.itemId === item.id)[0].quantity
+                return <CartItem
+                  key={idx}
+                  handleCheckChange={handleCheckChange}
+                  handleQuantityChange={handleQuantityChange}
+                  handleDelete={handleDelete}
+                  item={item}
+                  checkedItems={checkedItems}
+                  quantity={quantity}
+                />
+              })}
+            </div>
+          )}
           <OrderSummary total={total.price} totalQty={total.quantity} />
         </div>
       </div >
-    </div>
+    </main>
   )
 }

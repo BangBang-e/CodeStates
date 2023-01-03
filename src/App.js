@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Nav from './components/Nav';
+import Header from './components/Header';
 import ItemListContainer from './pages/ItemListContainer';
 import NotificationCenter from './components/NotificationCenter';
 import './App.css';
@@ -10,7 +10,7 @@ import ShoppingCart from './pages/ShoppingCart';
 function App() {
   return (
     <Router>
-      <Nav />
+      <Header />
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
         <Route path="/shoppingcart" element={<ShoppingCart />} />

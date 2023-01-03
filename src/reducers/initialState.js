@@ -5,7 +5,7 @@ export const initialState =
       "id": 1,
       "name": "노른자 분리기",
       "img": "../images/egg.png",
-      "price": 9900
+      "price": 9900,
     },
     {
       "id": 2,

@@ -11,6 +11,7 @@ export default function CartItem({
   return (
     <li className="cart-item-body">
       <input
+        title='장바구니 아이템 선택'
         type="checkbox"
         className="cart-item-checkbox"
         onChange={(e) => {
@@ -22,10 +23,11 @@ export default function CartItem({
         <img src={item.img} alt={item.name} />
       </div>
       <div className="cart-item-info">
-        <div className="cart-item-title" data-testid={`cart-${item.name}`}>{item.name}</div>
+        <h3 className="cart-item-title" data-testid={`cart-${item.name}`}>{item.name}</h3>
         <div className="cart-item-price">{item.price} 원</div>
       </div>
       <input
+        title='장바구니 아이템 수량 변경'
         type="number"
         min={1}
         className="cart-item-quantity"
@@ -34,7 +36,7 @@ export default function CartItem({
           handleQuantityChange(Number(e.target.value), item.id)
         }}>
       </input>
-      <button className="cart-item-delete" onClick={() => { handleDelete(item.id) }}>삭제</button>
+      <button className="cart-item-delete" aria-label="선택 삭제" onClick={() => { handleDelete(item.id) }}>삭제</button>
     </li >
   )
 }
