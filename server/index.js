@@ -18,9 +18,16 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 const corsOptions = {
-  /* TODO: CORS 설정이 필요합니다. 클라이언트가 어떤 origin인지에 따라 달리 설정할 수 있습니다.
-   * 메서드는 GET, POST, OPTIONS를 허용합니다.
-   */
+
+  // client는 http://localhost:3000 을 이용하게 됩니다.
+  origin: "http://localhost:3000",
+
+  // cookie는 인증 정보를 포함하는 경우가 많으므로 credentials도 설정해줍니다.
+  credentials: true,
+
+  // 허용할 메소드를 배열에 담아서 작성해줍니다.
+  methods: ['GET', 'POST', 'OPTIONS']
+
 };
 app.use(cors(corsOptions));
 

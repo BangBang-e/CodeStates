@@ -6,4 +6,13 @@ module.exports = (req, res) => {
    * 만약 res.clearCookie('user', cookieOption) 코드가 실행된다면 `user=....` 쿠키가 삭제됩니다.
    * 로그아웃 성공에 대한 상태 코드는 205가 되어야합니다.
    */
+  const cookiesOption = {
+    domain: 'localhost',
+    path: '/',
+    httpOnly: true,
+    sameSite: 'none',
+    secure: true,
+  }
+
+  res.status(205).clearCookie('cookieId', cookiesOption).send("logout")
 };
