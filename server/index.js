@@ -32,9 +32,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 const corsOptions = {
-  /* TODO: CORS 설정이 필요합니다. 클라이언트가 어떤 origin인지에 따라 달리 설정할 수 있습니다.
-   * 메서드는 GET, POST, OPTIONS를 허용합니다.
-   */
+  // * TODO: CORS 설정이 필요합니다. 클라이언트가 어떤 origin인지에 따라 달리 설정할 수 있습니다.
+  // * 메서드는 GET, POST, OPTIONS를 허용합니다.
+
+  origin: "http://localhost:3000",
+  credentials: true,
+  methods: ['GET', 'POST', 'OPTIONS']
 };
 app.use(cors(corsOptions));
 
