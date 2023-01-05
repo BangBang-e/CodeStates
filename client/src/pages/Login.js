@@ -28,7 +28,7 @@ export default function Login({ setIsLogin, setUserInfo }) {
         setUserInfo(res.data);
       })
       .catch((err) => {
-        setErrorMessage('로그인 실패!')
+        setErrorMessage('로그인에 실패했습니다.')
       });
   };
 
