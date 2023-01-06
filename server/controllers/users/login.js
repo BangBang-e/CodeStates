@@ -10,7 +10,58 @@ module.exports = async (req, res) => {
   const userInfo = {
     ...USER_DATA.filter((user) => user.userId === userId && user.password === password)[0],
   };
+  if (!userInfo.userId) {
+    return res.status(401).send('Not Authorized')
+  }
+  //async로 구현된 토큰 생성자 generateToken 실행
+  //generateToken = checkedKeepLogin여부에 따른 (accesstoken만 또는 accesstoken + refreshtoken) 생성자
+  const { accessToken, refreshToken } = await generateToken(userInfo, checkedKeepLogin);
 
+  //로그인 유지를 체크했을 경우 refresh token 생성됨
+  if (refreshToken) {
+    res.cookie('refresh_jwt', refreshToken, {
+      domain: 'localhost',
+      path: '/',
+      sameSite: 'none',
+      httpOnly: true,
+      secure: true,
+      //! refreshToken의 expires는 클라이언트가 받은 쿠키가 언제까지 유지될 것인지 설정한다.
+      expires: new Date(Date.now() + 24 * 3600 * 1000 * 7)  //7일 후 소멸되는 persistent cookie
+    })
+  }
+
+  //로그인 유지 안함
+  //access token 기본제공
+  res.cookie('access_jwt', accessToken, {
+    domain: 'localhost',
+    path: '/',
+    sameSite: 'none',
+    httpOnly: true,
+    secure: true,
+    //expires 옵션이 없는 session cookie
+  })
+
+  return res.redirect('/userinfo')
+
+  // if (!userInfo.Id) {
+  //   return res.status(401).send('Not Authorized')
+  // } else {
+  //   const { accessToken, refreshToken } = generateToken(userInfo, checkedKeepLogin)
+  //   const cookieOptions = {
+  //     domain: 'localhost',
+  //     path: '/',
+  //     sameSite: 'none',
+  //     httpOnly: true,
+  //     secure: true,
+  //   }
+  //   res.cookie('access_jwt', accessToken, cookieOptions)
+
+  //   if (checkedKeepLogin) {
+  //     cookieOptions.maxAge = 1000 * 60 * 60 * 24 * 7
+  //     res.cookie('access_jwt', accessToken, cookieOptions)
+  //   }
+  //   res.redirect('/userinfo')
+  // }
   /*
    * TODO: 로그인 로직을 구현하세요.
    *

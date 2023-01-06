@@ -1,4 +1,35 @@
 module.exports = (req, res) => {
+  const refreshToken = req.cookies['refresh_jwt'];
+  // if (refreshToken) {
+  //   res.clearCookie('refresh_jwt', {
+  //     domain: 'localhost',
+  //     path: '/',
+  //     sameSite: 'none',
+  //     httpOnly: true,
+  //     secure: true,
+  //   })
+  // }
+  // res.clearCookie('access_jwt', {
+  //   domain: 'localhost',
+  //   path: '/',
+  //   sameSite: 'none',
+  //   httpOnly: true,
+  //   secure: true,
+  // })
+  // return res.status(205).send('logged out!')
+  const { access_jwt, refresh_jwt } = req.cookies
+  const cookieOptions = {
+    domain: 'localhost',
+    path: '/',
+    sameSite: 'none',
+    httpOnly: true,
+    secure: true,
+  }
+  res.clearCookie('access_jwt', cookieOptions)
+  if (refresh_jwt) {
+    res.clearCookie('refresh_jwt', cookieOptions)
+  }
+  res.status(205).send('logged out!')
   /*
    * TODO: 로그아웃 로직을 구현하세요. 로그아웃 요청은 쿠키에 저장된 토큰을 삭제하는 과정을 포함해야 합니다.
    *
