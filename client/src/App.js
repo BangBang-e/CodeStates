@@ -15,7 +15,18 @@ function App() {
     // Authorization Code를 서버로 보내주고 서버에서 Access Token 요청을 하는 것이 적절합니다.
     // TODO: 서버의 /callback 엔드포인트로 Authorization Code를 보내주고 Access Token을 받아옵니다.
     // Access Token을 받아온 후 state에 Access Token을 저장하세요
+
+    axios
+      .post("https://localhost:4000/callback", { authorizationCode })
+      .then((res) => {
+        setIsLogin(true);
+        setAccessToken(res.data.accessToken);
+      })
+      .catch((err) => {
+        alert(err);
+      });
   };
+
   useEffect(() => {
     // Authorization Server로부터 클라이언트로 리디렉션된 경우, Authorization Code가 함께 전달됩니다.
     // ex) http://localhost:3000/mypage?code=5e52fb85d6a1ed46a51f
@@ -33,7 +44,10 @@ function App() {
             <Route
               path='/'
               element={
-                isLogin ? <Mypage /*TODO: 컴포넌트에 필요한 props를 전달하세요. */ /> : <Login />
+                isLogin ? <Mypage
+                  accessToken={accessToken}
+                  setIsLogin={setIsLogin}
+                  setAccessToken={setAccessToken} /> : <Login />
               }
             />
           </Routes>

@@ -2,7 +2,7 @@ import React from 'react';
 import githubLogo from './../images/github.png';
 
 export default function Login() {
-  const CLIENT_ID = 'FILL_ME_IN';
+  const CLIENT_ID = process.env.REACT_APP_CLIENT_ID;
 
   const loginRequestHandler = () => {
     // TODO: GitHub로부터 사용자 인증을 위해 GitHub로 이동해야 합니다. 적절한 URL을 입력하세요.
