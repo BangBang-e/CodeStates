@@ -18,6 +18,7 @@ const Wrapper = styled.div`
   }
   // 태블릿 : 1200px ~ 768px :: 768px 이상 적용되는 css
   @media only screen and (min-width: ${BREAK_POINT_TABLET}px) {
+    
   }
   // PC : 1200px 이상 :: 1200px 이상 적용되는 css
   @media only screen and (min-width: ${BREAK_POINT_PC}px) {

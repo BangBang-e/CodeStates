@@ -1,31 +1,40 @@
 import styled from 'styled-components';
 import '../App.css';
+import catData from '../catData/catData.js'
+import Cat from '../component/Cat.js';
 
 const MainArea = styled.div`
-  background-image: url('https://i.pinimg.com/564x/25/2a/85/252a8531ff0b79234be74178758db6da.jpg');
-  background-repeat: no-repeat;
-  background-position: right;
+  column-width:350px;
+  column-gap: 15px;
+  overflow-y: scroll;
+  padding: 40px 30px 0 30px;
 
-  max-height: 864px;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  padding: 128px 0px 0 0px;
-
-  div.text {
-    width: 1200px;
-    margin: 0 auto;
-    p {
-      position: relative;
-      top: 60px;
-      width: 100%;
-      height: auto;
-      color: black;
-      font-weight: 600;
-      font-size: 60px;
-      letter-spacing: 6px;
-      line-height: 1.4;
-    }
+  @media only screen and (max-width: 950px) {
+    background-color: rgba(180, 180, 180, 0.1);
+  }
+  @media only screen and (max-width: 900px) {
+    background-color: rgba(180, 180, 180, 0.2);
+  }
+  @media only screen and (max-width: 850px) {
+    background-color: rgba(180, 180, 180, 0.3);
+  }
+  @media only screen and (max-width: 800px) {
+    background-color: rgba(180, 180, 180, 0.4);
+  }
+  @media only screen and (max-width: 750px) {
+    background-color: rgba(180, 180, 180, 0.5);
+  }
+  @media only screen and (max-width: 700px) {
+    background-color: rgba(180, 180, 180, 0.6);
+  }
+  @media only screen and (max-width: 650px) {
+    background-color: rgba(180, 180, 180, 0.7);
+  }
+  @media only screen and (max-width: 600px) {
+    background-color: rgba(180, 180, 180, 0.8);
+  }
+  @media only screen and (max-width: 550px) {
+    background-color: rgba(180, 180, 180, 0.9);
   }
 `;
 
@@ -33,11 +42,7 @@ const Render = () => {
   return (
     <>
       <MainArea>
-        <div className="text">
-          <p>여러분들만의</p>
-          <p>앱으로</p>
-          <p>꾸며보세요</p>
-        </div>
+        {catData.sort(() => Math.random() - 0.5).map((catObj, idx) => <Cat key={idx} catObj={catObj} />)}
       </MainArea>
     </>
   );
