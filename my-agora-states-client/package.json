@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://BangBang-e.github.io/react-webpack-practice",
+  "homepage": "http://BangBang-e.github.io/react-webpack-practice/index.html",
   "eslintConfig": {
     "extends": [
       "react-app",
