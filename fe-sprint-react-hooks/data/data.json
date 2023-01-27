@@ -1,0 +1,46 @@
+{
+  "blogs": [
+    {
+      "title": "아이스아메리카노",
+      "body": "아이스아메리카노 좋아",
+      "author": "parkhacker",
+      "likes": 0,
+      "id": 4
+    },
+    {
+      "title": "진짜 안됨?",
+      "body": "왜 안됨?",
+      "author": "parkhacker",
+      "likes": 0,
+      "id": 7
+    },
+    {
+      "title": "김코딩 영어로?!",
+      "body": "히히헤헤호호",
+      "author": "kimcoding",
+      "likes": 0,
+      "id": 8
+    },
+    {
+      "title": "넘 어려워",
+      "body": "넘 어려워",
+      "author": "kimcoding",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "title": "도레미파솔라시도",
+      "body": "도레미파솔라시도",
+      "author": "parkhacker",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "title": "갈매기는",
+      "body": "끼룩끼룩",
+      "author": "kimcoding",
+      "likes": 0,
+      "id": 11
+    }
+  ]
+}
