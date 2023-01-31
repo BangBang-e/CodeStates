@@ -19,6 +19,46 @@ function detectNetwork(cardNumber) {
    * 이 글을 읽으셨다면, detectNetwork함수가 'Diner's Club', 'American Express'를
    * 정확히 검사할 수 있도록 만들고 브라우저 console 화면으로 돌아가세요.
    */
+  if (cardNumber.length === 14) {
+    if (cardNumber.split('').splice(0, 2).join('') === '38' ||
+      cardNumber.split('').splice(0, 2).join('') === '39') {
+      return 'Diner\'s Club'
+    }
+  }
+  if (cardNumber.length === 15) {
+    if (cardNumber.split('').splice(0, 2).join('') === '34' ||
+      cardNumber.split('').splice(0, 2).join('') === '37') {
+      return 'American Express'
+    }
+  }
+  if (cardNumber.length === 13 ||
+    cardNumber.length === 16 ||
+    cardNumber.length === 19) {
+    if (cardNumber.split('').splice(0, 1).join('') === '4') {
+      return 'Visa'
+    }
+  }
+  if (cardNumber.length === 16) {
+    if (cardNumber.split('').splice(0, 2).join('') === '51' ||
+      cardNumber.split('').splice(0, 2).join('') === '52' ||
+      cardNumber.split('').splice(0, 2).join('') === '53' ||
+      cardNumber.split('').splice(0, 2).join('') === '54' ||
+      cardNumber.split('').splice(0, 2).join('') === '55') {
+      return 'MasterCard'
+    }
+  }
+  if (cardNumber.length === 16 || cardNumber.length === 19) {
+    if (cardNumber.split('').splice(0, 2).join('') === '65' ||
+      cardNumber.split('').splice(0, 4).join('') === '6011' ||
+      cardNumber.split('').splice(0, 3).join('') === '644' ||
+      cardNumber.split('').splice(0, 3).join('') === '645' ||
+      cardNumber.split('').splice(0, 3).join('') === '646' ||
+      cardNumber.split('').splice(0, 3).join('') === '647' ||
+      cardNumber.split('').splice(0, 3).join('') === '648' ||
+      cardNumber.split('').splice(0, 3).join('') === '649') {
+      return 'Discover'
+    }
+  }
 }
 
 // you don't have to worry about this code. keep this code.
